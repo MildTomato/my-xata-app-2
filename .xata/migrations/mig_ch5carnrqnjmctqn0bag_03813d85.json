@@ -1,0 +1,17 @@
+{
+  "id": "mig_ch5carnrqnjmctqn0bag",
+  "parentID": "mig_ch5a5evrqnjmctqmreig",
+  "checksum": "1:03813d85efe9f52c333ea8b03cd2f6b4e8009e3822151db08f7a3267388ba6da",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "reviews",
+          "type": "bool",
+          "defaultValue": "false"
+        },
+        "table": "Posts"
+      }
+    }
+  ]
+}

@@ -13,6 +13,7 @@ const tables = [
       { name: "Title", type: "string" },
       { name: "body", type: "text" },
       { name: "pubDate", type: "datetime" },
+      { name: "reviews", type: "bool", defaultValue: "false" },
     ],
   },
 ] as const;

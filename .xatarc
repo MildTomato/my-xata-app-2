@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Jonathan-Summers-Muir-s-workspace-hiimfp.us-east-1.xata.sh/db/my-xata-app",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

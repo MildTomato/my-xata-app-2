@@ -28,7 +28,10 @@ export default function PostsListPage({ records }: { records: Posts[] }) {
           <h2>{record.Title}</h2>
           <p>{record.id}</p>
           <p>{record.body}</p>
-          <p>{record.pubDate}</p>
+          {/* // 
+          @ts-expect-error */}
+          <p>{record?.pubDate}</p>
+          <p>{record?.reviews ? "has reviews" : "does not have reviews"}</p>
         </div>
       ))}
     </>

@@ -28,6 +28,8 @@ export default function PostsListPage({ records }: { records: Posts[] }) {
           <h2>{record.Title}</h2>
           <p>{record.id}</p>
           <p>{record.body}</p>
+          {/* // 
+          @ts-expect-error */}
           <p>{record?.pubDate}</p>
         </div>
       ))}
